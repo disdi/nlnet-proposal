@@ -54,15 +54,15 @@ This effort will help the opensource community in folowwing ways:
 
 For this project, we rely on below opensoource tools:
 
-* Yosys, an open source framework for RTL synthesis. 
-* OpenROAD, which is used in OpenLane, delivers an end-to-end silicon compiler in open source, providing an automated layout generation flow from a design in RTLto GDSII/LEF files used to produce silicon chips.
+* [Yosys](https://yosyshq.net/yosys/), an open source framework for RTL synthesis. 
+* OpenROAD, which is used in [OpenLane](https://openlane.readthedocs.io/en/latest/), delivers an end-to-end silicon compiler in open source, providing an automated layout generation flow from a design in RTLto GDSII/LEF files used to produce silicon chips.
 
 ![workflow](./../attachment/workflow.png)
 
-* The SkyWater PDK is a catalog of standard logic cells that are designed for manufacturing at the SkyWater fab.
+* [SkyWater PDK](https://skywater-pdk.readthedocs.io/en/main/) is a catalog of standard logic cells that are designed for manufacturing at the SkyWater fab.
 
 ![skywater](./../attachment/skywater.jpg)
 
-* Caravel project provides an already hardened harness which has a blank space of 2.920 µm × 3.520 µm left for a custom design. The harness includes a small RISC-V management core, clock management, digital IO pins, logic analyzer pins, and a Wishbone interface from the RISC-V core to the user design.
+* [Caravel project](https://caravel-harness.readthedocs.io/en/latest/) provides an already hardened harness which has a blank space of 2.920 µm × 3.520 µm left for a custom design. The harness includes a small RISC-V management core, clock management, digital IO pins, logic analyzer pins, and a Wishbone interface from the RISC-V core to the user design.
 
 ![caravel](./../attachment/caravel_floorplan.jpg)
