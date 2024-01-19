@@ -1,6 +1,6 @@
 # Proposal 
 
-## Project Overview
+## **Project Overview**
 
 
 LibreCar Control aims to democratise knowledge to control an an automotive vehicle.
@@ -11,7 +11,7 @@ Nlnet funded development of Librecar Control in 2023 round.
 
 ...
 
-## 2024 Project Plans
+## **2024 Project Plans**
 
 The next natural step is to make CAN-Bus IP ready for ASIC integration. All opensource tools are intended to be used to archeive this goal. 
 
@@ -19,13 +19,13 @@ The recent introduction of open source PDKs like 130nm BiCMOS process from IHP, 
 
 This project aims to archeive the functionality of fully open source CAN-Bus digital IP to be built into an ASIC using Skywater 130nm Open PDK which is already synthesized and proven in FPGA as part of NLNET 2023 funding.
 
-### Project Objectives
+### **Project Objectives**
 
 * First open source CAN-Bus IP with 1 Mb/s capabilities.
 * Use, for the first time, an open source PDK, skywater 130 nm, for the realization of CAN Controller.
 * To illustrate the importance of open source hardware and synthesizable design techniques, motivating their adoption in circuit design.
 
-### Target Consumers
+### **Target Consumers**
 
 The project attempts to help solve the need for open source Hardware.
 
@@ -42,7 +42,7 @@ This effort will help the opensource community in folowwing ways:
 
 ...
 
-### Overview
+### **Overview**
 
 - **Total Estimated Duration:** Duration of the whole project (e.g. 12 months)
 
