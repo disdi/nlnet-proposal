@@ -1,28 +1,25 @@
-# Librecar Control 2024 
+# Proposal 
 
-## Project Overview :page_facing_up:
+## Project Overview
+
+
+LibreCar Control aims to democratise knowledge to control an an automotive vehicle.
 
 Nlnet funded development of Librecar Control in 2023 round.
 
 * [[Archeivements]] - details of outcome project archeived in 2023.
 
-### Overview
+...
 
-LibreCar Control aims to democratise knowledge to control an an automotive vehicle. To make this possible, following measures were taken as pert of this project:
+## 2024 Project Plans
 
-- Integrate opensource CAN-Bus (Controller Area Network) IP in FPGA.
-- Test opensource CAN-Bus with real industrial and automotive devices.
-- Provide documentation how to integrate it in new FPGA based products.
-
-### Project Details
-
-The next natural step is to make CAN-Bus IP ready for ASIC integration. All opensource tools are intended to be used to archieve this goal. 
+The next natural step is to make CAN-Bus IP ready for ASIC integration. All opensource tools are intended to be used to archeive this goal. 
 
 The recent introduction of open source PDKs like 130nm BiCMOS process from IHP, the SOI-CMOS PDK from Minimal Fab, 130nm mixed-signal CMOS SKY130 from Skywater and GlobalFoundries' 180nm has opened several opportunities for circuit designers. The conventional PDKs from TSMC, UMC etc. are quite expensive and involve strict licensing process, making them difficult to access for all. OpenPDK has removed the roadblocks for ASIC designing, providing access to make custom chips for free initially for faster development cycle or at very low-cost eventually.
 
 This project aims to archeive the functionality of fully open source CAN-Bus digital IP to be built into an ASIC using Skywater 130nm Open PDK which is already synthesized and proven in FPGA as part of NLNET 2023 funding.
 
-#### 2024 Objectives
+### Project Objectives
 
 * First open source CAN-Bus IP with 1 Mb/s capabilities.
 * Use, for the first time, an open source PDK, skywater 130 nm, for the realization of CAN Controller.
@@ -43,10 +40,7 @@ This effort will help the opensource community in folowwing ways:
 - Access to Schematic and Board Design for communicating with autmotive and industrial deveices.
 - Enables software developers to effectively optimize their source codes based on fully accessible hardware details of CAN-Bus IP.
 
-
-## Development Roadmap :nut_and_bolt:
-
-Below we provide an **example roadmap**. 
+...
 
 ### Overview
 
@@ -54,42 +48,21 @@ Below we provide an **example roadmap**.
 
 - **Total Costs:** Requested amount in Euro for the whole project is 50,000 Euros. 
 
-### Milestone 1 Example — Basic functionality
+> :: For hardware development, we needed for a long time to rely on commercial tools to simulate circuits and synthesize them targeting FPGAs or ASICs. FPGA tools from Intel (former Altera) and AMD (former Xilinx) are expensive and impossible to tinker with them as they are closed-source. For ASIC designs, we needed to use commercial tools, which are pretty expensive.
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+**Only opensource tools and methodology is planned to be used in development of this project**.
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
+For this project, we rely on below opensoource tools:
 
-| Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+* Yosys, an open source framework for RTL synthesis. 
+* OpenROAD, which is used in OpenLane, delivers an end-to-end silicon compiler in open source, providing an automated layout generation flow from a design in RTLto GDSII/LEF files used to produce silicon chips.
 
+![workflow](./../attachment/workflow.png)
 
-### Milestone 2 Example — Additional features
+* The SkyWater PDK is a catalog of standard logic cells that are designed for manufacturing at the SkyWater fab.
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+![skywater](./../attachment/skywater.jpg)
 
-...
+* Caravel project provides an already hardened harness which has a blank space of 2.920 µm × 3.520 µm left for a custom design. The harness includes a small RISC-V management core, clock management, digital IO pins, logic analyzer pins, and a Wishbone interface from the RISC-V core to the user design.
 
-
-## Future Plans
-
-Please include here
-
-- how you intend to finance the project's long-term maintenance and development,
-- how you intend to use, enhance, and promote your project in the short term, and
-
+![caravel](./../attachment/caravel_floorplan.jpg)

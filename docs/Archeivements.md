@@ -1,4 +1,5 @@
 # Archeivements
 
-* CAN IP synthesized in a FPGA.
-* FPGA soft core with CAN peripheral communicating to automotive and industrial devices.
+* Integrate opensource CAN-Bus (Controller Area Network) IP in FPGA.
+* Test opensource CAN-Bus with real industrial and automotive devices.
+* Provide documentation how to integrate it in new FPGA based products.
