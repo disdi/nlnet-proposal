@@ -13,16 +13,16 @@ Nlnet funded development of Librecar Control in 2023 round.
 
 ## **2024 Project Plans**
 
-The next natural step is to make CAN-Bus IP ready for ASIC integration. All opensource tools are intended to be used to archeive this goal. 
+Until very recently, custom ASICs were very rare for small and medium companies due to the overall prohibitive cost of their production, which could only be afforded by few large companies. This high cost comes mainly from the very expensive commercial EDA tools used for chip designs. However, recently there have been opensource initiatives such as OpenLane/OpenROAD which supported the production of a fully open source EDA toolchain from hardware description languages down to GDSII. The recent introduction of open source Process Design Kit (PDK) like 130nm BiCMOS process from IHP, the SOI-CMOS PDK from Minimal Fab, 130nm mixed-signal CMOS SKY130 from Skywater and GlobalFoundries' 180nm has also opened several opportunities for circuit designers and removed the roadblocks for ASIC designing.
 
-The recent introduction of open source PDKs like 130nm BiCMOS process from IHP, the SOI-CMOS PDK from Minimal Fab, 130nm mixed-signal CMOS SKY130 from Skywater and GlobalFoundries' 180nm has opened several opportunities for circuit designers. The conventional PDKs from TSMC, UMC etc. are quite expensive and involve strict licensing process, making them difficult to access for all. OpenPDK has removed the roadblocks for ASIC designing, providing access to make custom chips for free initially for faster development cycle or at very low-cost eventually.
+When the performance of the system is not sufficient for realtime requirements, the system is normally supplemented with FPGAs. This drives up the cost due to the inability to apply economy of scale for safety-critical domains with high volumes such as the automotive. Thus automotive target ASICs are on the rise. However all digital IPs are closed source and thier internal working are working under non-disclosure agreements(NDA) by semiconductor vendors.
 
-This project aims to archeive the functionality of fully open source CAN-Bus digital IP to be built into an ASIC using Skywater 130nm Open PDK which is already synthesized and proven in FPGA as part of NLNET 2023 funding.
+Librecar Control project can benefit from the opensource hardware ecosystem by taking next natural step to make opensource CAN-Bus IP availabe on an integrated circuit. It aims to deliver a fully open source CAN-Bus digital IP to be built into an ASIC using Skywater 130nm Open PDK which is already synthesized and proven in FPGA as part of NLNET 2023 funding.
 
 ### **Project Objectives**
 
 * First open source CAN-Bus IP with 1 Mb/s capabilities.
-* Use, for the first time, an open source PDK, skywater 130 nm, for the realization of CAN Controller.
+* Use an open source PDK, skywater 130 nm, for the realization of CAN Controller. This would assess the reliability of openodk manufacturing process and evaluate different reliability mitigation techniques.
 * To illustrate the importance of open source hardware and synthesizable design techniques, motivating their adoption in circuit design.
 
 ### **Target Consumers**
@@ -33,7 +33,7 @@ Open source hardware refers to a hardware, an ASIC, or even, a circuit that has 
 
 Like source code in case of open source software, all the schematics, logic designs, layout-data, and netlists need to be made available for revisions by anyone, who has access to the tools to read, manipulate and update the existing design with new features, usually aiming for better performance and share the improved design back to the community for further enhancements/evaluations.
 
-This effort will help the opensource community in folowwing ways:
+This effort will help the opensource community in following ways:
 
 - Access to an opensource CAN-Bus IP in ans ASIC and its entire design, specifications, and documentations. 
 - Knowledge how to integrate any FPGA based design to an opensource ASIC with access to all logic designs, layout-data, and netlists.
