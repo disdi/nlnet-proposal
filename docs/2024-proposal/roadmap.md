@@ -3,7 +3,7 @@
 ## Project Objectives
 
 * First open source CAN-Bus IP with 1 Mb/s capabilities.
-* Use an open source PDK, skywater 130 nm, for the realization of CAN Controller. This would assess the reliability of openodk manufacturing process and evaluate different reliability mitigation techniques.
+* Use an open source PDK, skywater 130 nm, for the realization of CAN Controller. This would assess the reliability of openpdk manufacturing process and evaluate different reliability mitigation techniques.
 * To illustrate the importance of open source hardware and synthesizable design techniques, motivating their adoption in circuit design.
 
 Below we provide the **2024 project roadmap**. 
@@ -33,7 +33,7 @@ Though CTUCAN-FD IP was synthesized in FPGA in 2023, in order to assess the reli
 
 - **Estimated Duration:** 4 months
 - **Costs:** 15,000 Euros
-- **Tasks:** After the RTL design flow, the Verilog files will be loaded to OpenLANE with the proposal to make the flow RTL to GDSII with the best layout optimization, additionally, OpenLANE requires the Process Design Kit (PDK) technology, Skywater130in this case, then OpenLANE generates the GDSII files of our module.
+- **Tasks:** After the RTL design flow, the Verilog files will be loaded to OpenLANE with the proposal to make the flow RTL to GDSII with the best layout optimization, additionally, OpenLANE requires the Process Design Kit (PDK) technology, Skywater130 in this case, then OpenLANE generates the GDSII files of our module.
 
 ...
 
