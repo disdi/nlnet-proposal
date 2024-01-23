@@ -2,9 +2,11 @@
 
 ## Project Objectives
 
-* First open source CAN-Bus IP with 1 Mb/s capabilities.
-* Use an open source PDK, skywater 130 nm, for the realization of CAN Controller. This would assess the reliability of openpdk manufacturing process and evaluate different reliability mitigation techniques.
-* To illustrate the importance of open source hardware and synthesizable design techniques, motivating their adoption in circuit design.
+1. Access to an opensource CAN-Bus IP in ans ASIC and its entire design, specifications, and documentations.
+2. Knowledge how to integrate any FPGA based design to an opensource ASIC with access to all logic designs, layout-data, and netlists.
+3. Using  an open source PDK, skywater 130 nm, for the realization of CAN Controller would assess the reliability of openpdk manufacturing process and evaluate different reliability mitigation techniques.
+4. Provide free access to Datasheet, Schematic and Board Design for communicating with automotive and industrial devices.
+5. Enables software developers to effectively optimize their source codes based on fully accessible hardware details of CAN-Bus IP.
 
 Below we provide the **2024 project roadmap**. 
 
