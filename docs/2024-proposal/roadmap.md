@@ -1,6 +1,12 @@
-# Roadmap
+# 2024 Roadmap
 
-Below we provide the **project roadmap**. 
+## Project Objectives
+
+* First open source CAN-Bus IP with 1 Mb/s capabilities.
+* Use an open source PDK, skywater 130 nm, for the realization of CAN Controller. This would assess the reliability of openodk manufacturing process and evaluate different reliability mitigation techniques.
+* To illustrate the importance of open source hardware and synthesizable design techniques, motivating their adoption in circuit design.
+
+Below we provide the **2024 project roadmap**. 
 
 The workflow followed to develop the SoC template with CAN IP is divided into 3 steps.
 * The RTL design flow
