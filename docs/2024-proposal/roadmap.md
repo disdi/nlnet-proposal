@@ -41,7 +41,7 @@ Though CTUCAN-FD IP was synthesized in FPGA in 2023, in order to assess the reli
 
 - **Estimated Duration:** 4 months
 - **Costs:** 15,000 Euros
-- **Tasks:** Finally, the integration will be done through Caravel, OpenLANE will be used to combine caravel with the Top Module CAN gds file,
+- **Tasks:** Finally, the integration will be done through Caravel, OpenLANE will be used to combine caravel with the Top Module CAN gds file.
 Top Module CAN refers to the module that combines and routes CAN IP.
 
 ...
@@ -50,11 +50,12 @@ Top Module CAN refers to the module that combines and routes CAN IP.
 
 - **Estimated Duration:** 4 months
 - **Costs:** 10,000 Euros
-- **Tasks:** Next step is to get chip fabricated and delivered by companies like Efabless.
+- **Tasks:** Next step is to get chip fabrication and packaging of our design in ASIC chip by companies like [Efabless](https://efabless.com/).
 
 ## Milestone 5 — Board Development
 
 - **Estimated Duration:** 4 months
 - **Costs:** 5,000 Euros
-- **Tasks:** Final step is to get board developed with newly fabricated chip with CAN interface.
+- **Tasks:** Final step is to get carrier board developed with newly fabricated chip with CAN design and access all the chip signals.
+.
 ...
