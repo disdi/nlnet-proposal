@@ -19,7 +19,14 @@ The whole process is illustrated in below workflow:
 
 ...
 
-## Milestone 1 — RTL design flow
+## Project Deliverables
+
+- **Total Estimated Duration:** Duration of the whole project would be approximately 12 months.
+
+- **Total Costs:** Requested amount in Euro for the whole project is 50,000 Euros. 
+
+
+### Milestone 1 — RTL design flow
 
 - **Estimated duration:** 4 months
 - **Costs:** 5,000 Euros
@@ -29,7 +36,7 @@ Though CTUCAN-FD IP was synthesized in FPGA in 2023, in order to assess the reli
 
 ...
 
-## Milestone 2 — OpenLANE flow 
+### Milestone 2 — OpenLANE flow 
 
 - **Estimated Duration:** 4 months
 - **Costs:** 15,000 Euros
@@ -37,7 +44,7 @@ Though CTUCAN-FD IP was synthesized in FPGA in 2023, in order to assess the reli
 
 ...
 
-## Milestone 3 — Caravel integration
+### Milestone 3 — Caravel integration
 
 - **Estimated Duration:** 4 months
 - **Costs:** 15,000 Euros
@@ -46,16 +53,17 @@ Top Module CAN refers to the module that combines and routes CAN IP.
 
 ...
 
-## Milestone 4 — Chip fabrication
+### Milestone 4 — Chip fabrication
 
 - **Estimated Duration:** 4 months
 - **Costs:** 10,000 Euros
 - **Tasks:** Next step is to get chip fabrication and packaging of our design in ASIC chip by companies like [Efabless](https://efabless.com/).
 
-## Milestone 5 — Board Development
+### Milestone 5 — Board Development
 
 - **Estimated Duration:** 4 months
 - **Costs:** 5,000 Euros
 - **Tasks:** Final step is to get carrier board developed with newly fabricated chip with CAN design and access all the chip signals.
 .
 ...
+
