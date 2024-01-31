@@ -30,7 +30,7 @@ The whole process is illustrated in below workflow:
 
 ### Milestone 1 — RTL design flow
 
-- **Estimated duration:** 4 months
+- **Estimated duration:** 2 months
 - **Costs:** 5,000 Euros
 - **Tasks:** This process starts with the common RTL design flow in which each module along with its testbench is developed with HDL language. Then each module is tested, synthesized, and wrapped in a top module, which is also tested. Yosys can be used to test and synthesize each module.
 
@@ -48,7 +48,7 @@ Though CTUCAN-FD IP was synthesized in FPGA in 2023, in order to assess the reli
 
 ### Milestone 3 — Caravel integration
 
-- **Estimated Duration:** 4 months
+- **Estimated Duration:** 3 months
 - **Costs:** 15,000 Euros
 - **Tasks:** Finally, the integration will be done through Caravel, OpenLANE will be used to combine caravel with the Top Module CAN gds file.
 Top Module CAN refers to the module that combines and routes CAN IP.
@@ -57,13 +57,13 @@ Top Module CAN refers to the module that combines and routes CAN IP.
 
 ### Milestone 4 — Chip fabrication
 
-- **Estimated Duration:** 4 months
+- **Estimated Duration:** 2 months
 - **Costs:** 10,000 Euros
 - **Tasks:** Next step is to get chip fabrication and packaging of our design in ASIC chip by companies like [Efabless](https://efabless.com/).
 
 ### Milestone 5 — Board Development
 
-- **Estimated Duration:** 4 months
+- **Estimated Duration:** 1 months
 - **Costs:** 5,000 Euros
 - **Tasks:** Final step is to get carrier board developed with newly fabricated chip with CAN design and access all the chip signals.
 .
