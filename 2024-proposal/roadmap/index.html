@@ -1,0 +1,873 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>2024 Roadmap - Librecar Control Proposals</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2024-roadmap" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Librecar Control Proposals" class="md-header-nav__button md-logo" aria-label="Librecar Control Proposals">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Librecar Control Proposals
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              2024 Roadmap
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+          
+
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." class="md-tabs__link">
+        Nlnet Proposals
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../2024/" class="md-tabs__link md-tabs__link--active">
+          2024 proposal
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Librecar Control Proposals" class="md-nav__button md-logo" aria-label="Librecar Control Proposals">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Librecar Control Proposals
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Nlnet Proposals" class="md-nav__link">
+      Nlnet Proposals
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../2023/" title="2023" class="md-nav__link">
+      2023
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      2024 proposal
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="2024 proposal" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        2024 proposal
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../2024/" title="Proposal : OpenBSW support for Librecar" class="md-nav__link">
+      Proposal : OpenBSW support for Librecar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        2024 Roadmap
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="2024 Roadmap" class="md-nav__link md-nav__link--active">
+      2024 Roadmap
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-roadmap" class="md-nav__link">
+    Project Roadmap
+  </a>
+  
+    <nav class="md-nav" aria-label="Project Roadmap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#milestone-1--os-abstraction-layer-setup" class="md-nav__link">
+    Milestone 1 — OS abstraction layer setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Milestone 1 — OS abstraction layer setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cross-platform-can-hardware-abstraction" class="md-nav__link">
+    Cross-Platform CAN Hardware Abstraction
+  </a>
+  
+    <nav class="md-nav" aria-label="Cross-Platform CAN Hardware Abstraction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware-abstraction-layer-hal" class="md-nav__link">
+    Hardware Abstraction Layer (HAL)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-to-zephyr-rtos-porting" class="md-nav__link">
+    Linux to Zephyr RTOS Porting
+  </a>
+  
+    <nav class="md-nav" aria-label="Linux to Zephyr RTOS Porting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#device-tree-adaptation" class="md-nav__link">
+    Device Tree Adaptation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#driver-architecture" class="md-nav__link">
+    Driver Architecture
+  </a>
+  
+    <nav class="md-nav" aria-label="Driver Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#separation-of-platform-specific-and-common-code" class="md-nav__link">
+    Separation of platform-specific and common code
+  </a>
+  
+    <nav class="md-nav" aria-label="Separation of platform-specific and common code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implementation-of-zephyr-driver-api-callbacks" class="md-nav__link">
+    Implementation of Zephyr driver API callbacks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-management" class="md-nav__link">
+    Resource Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-management" class="md-nav__link">
+    Power Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-handling" class="md-nav__link">
+    Error Handling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#milestone-2--standard-programming-constructs-over-can" class="md-nav__link">
+    Milestone 2 — Standard programming constructs over CAN
+  </a>
+  
+    <nav class="md-nav" aria-label="Milestone 2 — Standard programming constructs over CAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-handling-framework" class="md-nav__link">
+    Message Handling Framework
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-driven-architecture" class="md-nav__link">
+    Event-Driven Architecture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-management" class="md-nav__link">
+    Error Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-features" class="md-nav__link">
+    Configuration Features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#milestone-3--diagnostics-over-can" class="md-nav__link">
+    Milestone 3 — Diagnostics over CAN
+  </a>
+  
+    <nav class="md-nav" aria-label="Milestone 3 — Diagnostics over CAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostic-support" class="md-nav__link">
+    Diagnostic Support
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-roadmap" class="md-nav__link">
+    Project Roadmap
+  </a>
+  
+    <nav class="md-nav" aria-label="Project Roadmap">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#milestone-1--os-abstraction-layer-setup" class="md-nav__link">
+    Milestone 1 — OS abstraction layer setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Milestone 1 — OS abstraction layer setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cross-platform-can-hardware-abstraction" class="md-nav__link">
+    Cross-Platform CAN Hardware Abstraction
+  </a>
+  
+    <nav class="md-nav" aria-label="Cross-Platform CAN Hardware Abstraction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hardware-abstraction-layer-hal" class="md-nav__link">
+    Hardware Abstraction Layer (HAL)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-to-zephyr-rtos-porting" class="md-nav__link">
+    Linux to Zephyr RTOS Porting
+  </a>
+  
+    <nav class="md-nav" aria-label="Linux to Zephyr RTOS Porting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#device-tree-adaptation" class="md-nav__link">
+    Device Tree Adaptation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#driver-architecture" class="md-nav__link">
+    Driver Architecture
+  </a>
+  
+    <nav class="md-nav" aria-label="Driver Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#separation-of-platform-specific-and-common-code" class="md-nav__link">
+    Separation of platform-specific and common code
+  </a>
+  
+    <nav class="md-nav" aria-label="Separation of platform-specific and common code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implementation-of-zephyr-driver-api-callbacks" class="md-nav__link">
+    Implementation of Zephyr driver API callbacks
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#resource-management" class="md-nav__link">
+    Resource Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#power-management" class="md-nav__link">
+    Power Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-handling" class="md-nav__link">
+    Error Handling
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#milestone-2--standard-programming-constructs-over-can" class="md-nav__link">
+    Milestone 2 — Standard programming constructs over CAN
+  </a>
+  
+    <nav class="md-nav" aria-label="Milestone 2 — Standard programming constructs over CAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#message-handling-framework" class="md-nav__link">
+    Message Handling Framework
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-driven-architecture" class="md-nav__link">
+    Event-Driven Architecture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#error-management" class="md-nav__link">
+    Error Management
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-features" class="md-nav__link">
+    Configuration Features
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#milestone-3--diagnostics-over-can" class="md-nav__link">
+    Milestone 3 — Diagnostics over CAN
+  </a>
+  
+    <nav class="md-nav" aria-label="Milestone 3 — Diagnostics over CAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagnostic-support" class="md-nav__link">
+    Diagnostic Support
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="2024-roadmap">2024 Roadmap<a class="headerlink" href="#2024-roadmap" title="Permanent link">#</a></h1>
+<h2 id="project-roadmap">Project Roadmap<a class="headerlink" href="#project-roadmap" title="Permanent link">#</a></h2>
+<ul>
+<li>
+<p><strong>Total Estimated Duration:</strong> Duration of the whole project would be approximately 6 to 7 months.</p>
+</li>
+<li>
+<p><strong>Total Costs:</strong> Requested amount in Euro for the whole project is 50,000 Euros. </p>
+</li>
+</ul>
+<h3 id="milestone-1--os-abstraction-layer-setup">Milestone 1 — OS abstraction layer setup<a class="headerlink" href="#milestone-1--os-abstraction-layer-setup" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Estimated duration:</strong> 2 months</li>
+<li><strong>Costs:</strong> 20,000 Euros</li>
+<li><strong>Tasks:</strong> This process starts with the common OS abstraction layer setup over Litex which can support CAN driver over both Linux and Zephyr.</li>
+</ul>
+<p>Specfic details of features planned are listed below :</p>
+<h4 id="cross-platform-can-hardware-abstraction">Cross-Platform CAN Hardware Abstraction<a class="headerlink" href="#cross-platform-can-hardware-abstraction" title="Permanent link">#</a></h4>
+<h5 id="hardware-abstraction-layer-hal">Hardware Abstraction Layer (HAL)<a class="headerlink" href="#hardware-abstraction-layer-hal" title="Permanent link">#</a></h5>
+<ul>
+<li>Unified API for CAN controller access</li>
+<li>Platform-independent driver interface</li>
+<li>Support for CTUCAN controller in Litex</li>
+<li>Standardized register access methods</li>
+</ul>
+<h4 id="linux-to-zephyr-rtos-porting">Linux to Zephyr RTOS Porting<a class="headerlink" href="#linux-to-zephyr-rtos-porting" title="Permanent link">#</a></h4>
+<h5 id="device-tree-adaptation">Device Tree Adaptation<a class="headerlink" href="#device-tree-adaptation" title="Permanent link">#</a></h5>
+<ul>
+<li>Conversion of Linux DTS CAN nodes to Zephyr format</li>
+<li>Mapping of pin configurations and controller properties</li>
+<li>Clock and timing parameter translation</li>
+<li>Interrupt handling configuration</li>
+</ul>
+<h4 id="driver-architecture">Driver Architecture<a class="headerlink" href="#driver-architecture" title="Permanent link">#</a></h4>
+<h5 id="separation-of-platform-specific-and-common-code">Separation of platform-specific and common code<a class="headerlink" href="#separation-of-platform-specific-and-common-code" title="Permanent link">#</a></h5>
+<h6 id="implementation-of-zephyr-driver-api-callbacks">Implementation of Zephyr driver API callbacks<a class="headerlink" href="#implementation-of-zephyr-driver-api-callbacks" title="Permanent link">#</a></h6>
+<ul>
+<li>can_configure() for bitrate and timing settings</li>
+<li>can_send() for message transmission</li>
+<li>can_add_rx_filter() for message filtering</li>
+<li>can_remove_rx_filter() for filter management</li>
+</ul>
+<h5 id="resource-management">Resource Management<a class="headerlink" href="#resource-management" title="Permanent link">#</a></h5>
+<ul>
+<li>Memory allocation strategy adaptation</li>
+<li>DMA configuration differences</li>
+<li>Buffer management optimization</li>
+<li>Interrupt priority mapping</li>
+</ul>
+<h5 id="power-management">Power Management<a class="headerlink" href="#power-management" title="Permanent link">#</a></h5>
+<ul>
+<li>Sleep mode configuration</li>
+<li>Wake-up source handling</li>
+<li>Power state transitions</li>
+<li>Low-power mode optimization</li>
+</ul>
+<h5 id="error-handling">Error Handling<a class="headerlink" href="#error-handling" title="Permanent link">#</a></h5>
+<ul>
+<li>Bus-off recovery procedures</li>
+<li>Error status reporting</li>
+<li>Fault containment mechanisms</li>
+<li>Error counter management</li>
+</ul>
+<p>...</p>
+<h3 id="milestone-2--standard-programming-constructs-over-can">Milestone 2 — Standard programming constructs over CAN<a class="headerlink" href="#milestone-2--standard-programming-constructs-over-can" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Estimated Duration:</strong> 2 months</li>
+<li><strong>Costs:</strong> 20,000 Euros</li>
+<li><strong>Tasks:</strong> Basic CAN communication over Linux, is already supported in Litex. We would enhance it by adding a streamlined interface for sending/receiving CAN frames and a Code-based listener attachment and detachment system.</li>
+</ul>
+<p>Specfic details of features planned are listed below :</p>
+<h4 id="message-handling-framework">Message Handling Framework<a class="headerlink" href="#message-handling-framework" title="Permanent link">#</a></h4>
+<ul>
+<li>Dynamic frame registration and deregistration</li>
+<li>Priority-based message queuing</li>
+<li>Automatic message scheduling for cyclic transmissions</li>
+</ul>
+<h4 id="event-driven-architecture">Event-Driven Architecture<a class="headerlink" href="#event-driven-architecture" title="Permanent link">#</a></h4>
+<ul>
+<li>Lightweight listener pattern implementation</li>
+<li>Multiple callback support per CAN ID</li>
+<li>Configurable filtering mechanisms</li>
+<li>Zero-copy message handling for optimal performance</li>
+</ul>
+<h4 id="error-management">Error Management<a class="headerlink" href="#error-management" title="Permanent link">#</a></h4>
+<ul>
+<li>Sophisticated error detection and handling</li>
+<li>Bus-off recovery mechanisms</li>
+<li>Automatic retransmission configuration</li>
+<li>Error statistics and logging</li>
+</ul>
+<h4 id="configuration-features">Configuration Features<a class="headerlink" href="#configuration-features" title="Permanent link">#</a></h4>
+<ul>
+<li>Bit timing configuration</li>
+<li>Acceptance filtering setup</li>
+<li>Transmission buffer management</li>
+<li>Bus load monitoring</li>
+</ul>
+<p>...</p>
+<h3 id="milestone-3--diagnostics-over-can">Milestone 3 — Diagnostics over CAN<a class="headerlink" href="#milestone-3--diagnostics-over-can" title="Permanent link">#</a></h3>
+<ul>
+<li><strong>Estimated Duration:</strong> 2 months</li>
+<li><strong>Costs:</strong> 10,000 Euros</li>
+<li><strong>Tasks:</strong> The next steps on our roadmap include  Diagnostics over CAN bus supporting flashing via Unified Diagnostic Services (UDS).</li>
+</ul>
+<h4 id="diagnostic-support">Diagnostic Support<a class="headerlink" href="#diagnostic-support" title="Permanent link">#</a></h4>
+<ul>
+<li>Built-in support for UDS (Unified Diagnostic Services)</li>
+<li>ISO-TP (ISO 15765-2) protocol implementation</li>
+<li>Multiple addressing modes (physical, functional, extended)</li>
+<li>Response pending handling</li>
+</ul>
+<p>...</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../2024/" title="Proposal : OpenBSW support for Librecar" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Proposal : OpenBSW support for Librecar
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["navigation.expand", "tabs"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
