@@ -1,57 +1,41 @@
 # 2024 Roadmap
 
-## Project Objectives
-1. Enables software developers to effectively optimize their source codes based on fully accessible hardware details of CAN-Bus IP.
+## Project Roadmap
 
-Below we provide the **2024 project roadmap**. 
-
-The workflow followed to develop the SoC template with CAN IP is divided into 3 steps.
-* The integration
-
-
-...
-
-## Project Deliverables
-
-- **Total Estimated Duration:** Duration of the whole project would be approximately 12 months.
+- **Total Estimated Duration:** Duration of the whole project would be approximately 6 to 7 months.
 
 - **Total Costs:** Requested amount in Euro for the whole project is 50,000 Euros. 
 
 
-### Milestone 1 — RTL design flow
+### Milestone 1 — OS abstraction layer setup
 
 - **Estimated duration:** 2 months
-- **Costs:** 5,000 Euros
-- **Tasks:** This process starts with the common RTL design flow in which each module along with its testbench is developed with HDL language. 
-...
-
-### Milestone 2 — OpenLANE flow 
-
-- **Estimated Duration:** 4 months
 - **Costs:** 15,000 Euros
-- **Tasks:** After the RTL design flow.
-
+- **Tasks:** This process starts with the common OS abstraction layer setup over Litex which can support CAN driver over both Linux and Zephyr.
+This would invlove porting CTUCAN IP driver in Linux to Zephyr.
 ...
 
-### Milestone 3 — Caravel integration
-
-- **Estimated Duration:** 3 months
-- **Costs:** 15,000 Euros
-- **Tasks:** Finally, the integration will be done.
-
-...
-
-### Milestone 4 — Chip fabrication
+### Milestone 2 — Standard programming constructs over CAN 
 
 - **Estimated Duration:** 2 months
-- **Costs:** 10,000 Euros
-- **Tasks:** Next step is to get chip fabrication.
+- **Costs:** 15,000 Euros
+- **Tasks:** Basic CAN communication over Linux, is already supported in Litex. We would enhance it by adding a streamlined interface for sending/receiving CAN frames and a Code-based listener attachment and detachment system.
 
-### Milestone 5 — Board Development
+...
+
+### Milestone 3 — Diagnostics over CAN
+
+- **Estimated Duration:** 2 months
+- **Costs:** 15,000 Euros
+- **Tasks:** The next steps on our roadmap include  Diagnostics over CAN bus supporting flashing via Unified Diagnostic Services (UDS).
+
+...
+
+### Milestone 4 — Documentation system establishment
 
 - **Estimated Duration:** 1 months
 - **Costs:** 5,000 Euros
-- **Tasks:** Final step is to get carrier board developed with newly fabricated chip with CAN.
+- **Tasks:** Final step is to get provide Documentation of CAN sytem and protocols usage in OpenBSW.
 
 ...
 
